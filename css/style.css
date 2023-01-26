@@ -56,7 +56,7 @@ nav button{
     font-family: var(--font-open-sans);
     font-size: 20px;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
 }
 
@@ -115,9 +115,14 @@ nav button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 150px 0px;
+    padding: 0px 180px 0px;
     background-color: var(--very-pale-blue);
+    width: 100vw;
 }
+
+
+
+
 
 
 
@@ -137,6 +142,10 @@ nav button{
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 30px;
+}
+
+.build-comunity .section-description{
+    text-align: center;
 }
 
 .view-desktop-mobile{
@@ -185,3 +194,36 @@ nav button{
     text-align: justify;
 }
 /* \GROW TOGETHER */
+
+
+
+
+/* FLOWING-CONVERSATIONS */
+.section-flowing-conversations{
+    margin: 100px 0px 100px;
+}
+
+.section-flowing-conversations .section-description{
+    text-align: justify;
+}
+
+.section-flowing-conversations .encompass{
+    background-color: #fff;
+}
+/* \FLOWING-CONVERSATIONS */
+
+
+.ready-community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0px 150px;
+}
+
+.ready-community .section-title {
+    font-family: var(--font-poppins);
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
