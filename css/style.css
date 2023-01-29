@@ -20,7 +20,12 @@
     --font-open-sans: 'Open Sans', sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
+    font-size: 1.6rem;
     width: 100vw;
     height: auto;
     overflow-x: hidden;
@@ -41,6 +46,12 @@ nav button{
     border-radius: 25px;
     border: 1px solid var(--pink);
     background-color: var(--white);
+    color: var(--pink);
+}
+
+nav button:hover{
+    border-color: var(--light-pink);
+    color: var(--light-pink);
 }
 
 .container{
@@ -82,6 +93,14 @@ nav button{
     background-color: var(--pink);
 }
 
+.button:hover{
+    background-color: var(--light-pink);
+}
+
+.img-ilustration{
+    padding: 50px;
+}
+
 .img-ilustration img{
     width: 600px;
     height: auto;
@@ -120,6 +139,9 @@ nav button{
     width: 100vw;
 }
 
+.informations{
+    
+}
 
 
 
@@ -140,7 +162,7 @@ nav button{
     font-family: var(--font-poppins);
     text-align: center;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 6.0rem;
     margin-bottom: 30px;
 }
 
@@ -170,7 +192,8 @@ nav button{
 .infos{
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -213,6 +236,8 @@ nav button{
 /* \FLOWING-CONVERSATIONS */
 
 
+
+/* READY COMMUNITY */
 .ready-community{
     display: flex;
     flex-direction: column;
@@ -226,4 +251,95 @@ nav button{
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 30px;
+}
+/* \READY COMMUNITY */
+
+
+.footer{
+    width: 100vw;
+    height: auto;
+    background-color: var(--very-dark-cyan);
+}
+
+.footer .img-background--top{
+    transform: translateY(-200px);
+}
+
+.footer .encompass{
+    background-color: var(--very-dark-cyan);
+    align-items: flex-start;
+}
+
+.footer .section-description{
+    color: var(--white);
+    margin: 15px 0px 15px;
+}
+
+.phone,
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.phone img,
+.email img{
+    margin-right: 10px;
+}
+
+.social{
+    display: flex;
+    margin-top: 30px;
+}
+
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icon:nth-child(2):hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-icon:hover{
+    background-color: #1d9bf0;
+}
+
+
+.subscribe .section-title{
+    color: var(--white);
+}
+
+
+
+.user-data{
+    display: flex;
+}
+
+.footer .subscribe-box{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: var(--white);
+}
+
+.footer .subscribe-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--pink);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
