@@ -363,8 +363,8 @@ nav button:hover {
   align-items: center;
 }
 
-.footer .subscribe-button:hover{
-    background-color: var(--light-pink);
+.footer .subscribe-button:hover {
+  background-color: var(--light-pink);
 }
 
 @media (max-width: 1440px) {
@@ -523,7 +523,7 @@ nav button:hover {
 }
 
 @media (max-width: 500px) {
-  .logo img{
+  .logo img {
     width: 15rem;
   }
 
@@ -559,11 +559,35 @@ nav button:hover {
   .info h1 {
     font-size: 4rem;
   }
+
+  .infos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem 0rem;
+  }
+
+  .button {
+    width: 30rem;
+    height: 4rem;
+    border-radius: 2rem;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .view-desktop-mobile {
     width: 40rem;
+  }
+
+  .img-ilustration img {
+    width: 25rem;
+    height: auto;
   }
 
   .defalt.build-comunity .section-title {
@@ -602,19 +626,6 @@ nav button:hover {
   .defalt.build-comunity .section-description {
     padding: 0rem 4rem 0rem;
     font-size: 1.1rem;
-  }
-
-  .infos {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5rem 0rem 0rem;
   }
 
   .button {
