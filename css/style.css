@@ -363,6 +363,10 @@ nav button:hover {
   align-items: center;
 }
 
+.footer .subscribe-button:hover{
+    background-color: var(--light-pink);
+}
+
 @media (max-width: 1440px) {
   .encompass {
     padding: 0px 60px 0px;
